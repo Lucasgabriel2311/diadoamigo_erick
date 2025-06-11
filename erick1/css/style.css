@@ -1,0 +1,278 @@
+* {
+
+ padding: 0%;
+ margin: 0%;
+ box-sizing: border-box;
+
+}
+body {
+
+height: 2650px;
+ background: linear-gradient(135deg, rgb(8, 9, 9), #0768e6, #1a1a1b ); 
+   overflow-x: hidden;
+ 
+}
+
+@font-face {
+    font-family: "akira";
+    src: url(../fontes/akira/Akira\ Expanded\ Demo.otf) format(truetype);
+}
+
+@font-face {
+    font-family: "designer";
+    src: url(../fontes/designer_2/Designer.otf) format(truetype);
+}
+
+@font-face {
+    font-family: "unageo";
+    src: url(../fontes/unageo/ttf/Unageo-Black.ttf) format(truetype)
+}
+
+@font-face {
+  font-family: "creato";
+  src: url(../fontes/creato_display/CreatoDisplay-Black.otf) format(truetype);
+}
+
+
+
+.erickperfil {
+
+  position: absolute;
+  right: 6%;
+  top: 28%;
+
+}
+
+.erickperfil img {
+
+  width: 300px;         
+  height: 300px;        
+  border-radius: 50%; 
+  object-fit: cover;    
+  border: 8px solid rgb(255, 255, 255);
+}
+
+.erickneres {
+position: absolute;
+top: 70%;
+right: 4%;
+font-family: "akira";
+font-size: 40px;
+}
+
+.erickfundo {
+
+position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 80vh; 
+  background-image: url(../img/erickfundo.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1; 
+  object-fit: cover;
+  border-radius: 2%;
+}
+
+
+.img1 img {
+
+width: 450px;
+height: 350px;
+border-radius: 5%;
+
+}
+
+.img2 img {
+
+width: 450px;
+height: 350px;
+border-radius: 5%;
+
+}
+
+.img3 img {
+
+width: 450px;
+height: 350px;
+border-radius: 5%;
+
+}
+
+
+.boximg {
+display: flex;
+gap: 80px;
+position: absolute;
+top: 205%;
+}
+
+.box {
+
+ display: flex;
+  flex-direction: row;
+  gap: 80px;
+  position: absolute;
+  top: 90%;
+  
+}
+
+.boxcidade {
+  
+  display: flex;
+   width: 700px;
+   height: 150px;
+   background-color: #1a1a1b;
+   border-radius: 5%;
+   justify-content: center;
+   align-items: center;
+}
+
+.boxidade {
+  
+  display: flex;
+  margin-left: 2%;
+   width: 700px;
+   height: 150px;
+   background-color: #1a1a1b;
+   border-radius: 5%;
+   justify-content: center;
+  align-items: center;
+}
+
+
+
+.boxidade p {
+  
+  color: white;
+  font-family: "akira", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  
+}
+
+.boxcidade p {
+
+   font-family: "akira";
+   font-size: 40px;
+   color: white;
+
+
+}
+
+.boxcidade strong {
+
+   color: rgb(47, 108, 213);
+
+}
+
+.boxsobre {
+  
+  position: absolute;
+  background: linear-gradient(135deg, rgb(8, 9, 9), #0768e6, #1a1a1b);
+  height: 600px;
+  width: 96%;
+  top: 115%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3%;
+}
+
+.boxsobre {
+
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.sobre p {
+  
+  width: 93%;
+  font-family: "creato";
+  color: white;
+  font-size: 40px;
+  line-height: 55px;
+  padding-left: 2%;
+}
+
+ .boxbrawl {
+  position: relative; 
+  top: 75%;
+  width: 100%;
+  height: 100vh; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.erickbrawl {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  z-index: 1;
+}
+
+
+.brawler {
+  width: 100%;
+  height: 100%;
+}
+
+.brawler img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 2%;
+}
+
+
+.stats {
+  position: absolute;
+  top: 68%; 
+  right: 29%;
+  color: rgb(94, 172, 244);
+  font-family: "unageo";
+  font-size: 270%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  
+}
+
+.brawlererick {
+  position: absolute;
+  bottom: 50%; 
+  right: 10%;
+  color: rgb(88, 165, 242);
+  font-family: "akira";
+  font-size: 300%;
+}
+
+.botao-voltar {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+        background-color: rgb(60, 16, 239);
+        color: white;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute; left: 0%;
+        text-align: center;
+      }
+    .botao-voltar:hover {
+        background-color: #555;
+        color: white    ;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        
+      }
